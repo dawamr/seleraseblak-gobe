@@ -9,8 +9,6 @@ services:
       - '8077:8080'
     env_file:
       - .env
-    depends_on:
-      - db
     networks:
       - directus-seleraseblak
 
