@@ -44,7 +44,7 @@ func main() {
 
 	// CORS middleware dengan konfigurasi yang lebih lengkap
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "http://localhost:3000,http://localhost:4321", // URL frontend yang diizinkan
+		AllowOrigins: "http://localhost:3000,http://localhost:4321,https://seleraseblak-website.pages.dev,https://seleraseblak.com", // URL frontend yang diizinkan
 		AllowMethods: "GET,POST,PUT,DELETE,OPTIONS,HEAD,PATCH",
 		AllowHeaders: "Origin, Content-Type, Accept, Authorization, X-Requested-With",
 		AllowCredentials: true,
