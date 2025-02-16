@@ -53,7 +53,7 @@ func main() {
 	}))
 
 	// API routes
-	api := app.Group("/api")
+	api := app.Group("/")
 
 	// Store routes
 	stores := api.Group("/stores")
